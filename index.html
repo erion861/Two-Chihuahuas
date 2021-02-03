@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta charset="UTF-8">
+      <meta name="description" content="street food">
+      <meta name="keywords" content="takeaway, street food, mexican food, latin-american food, restaurant, perth">
+      <meta name="author" content="Zsolt Orban">
+      <title>The Two Chihuahuas Restaurant</title>
+      <link rel = "icon" href ="img/twochi.png" type = "image/x-icon">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/queries.css">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+       <!--navbar-->
+      <header class="main-header">
+        <nav class="main-nav">
+          <div class="logo">
+            <a href="#home"><img src="img/twochi.png" alt="logo" style= "width: 140px" height="58px"></a>
+            <h3>Restaurant Bar and Takeaway</h3>
+          </div>
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a href="#deals">Deals</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#menu">Menu</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#food">Food</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="mobile-nav">
+            <img class="hamburrito" src="img/burrito.png" alt="hamburrito">
+            <div class="dropdown-content">
+              <a href="#deals">Deals</a>
+              <a href="#menu">Menu</a>
+              <a href="#food">Food</a>
+              <a href="#contact">Contact</a>
+              </div>
+          </div>
+        </nav>
+      </header>
+      <!--main content-->
+      <!--intro section-->
+      <section id="home">
+        <h2 class="title">Latin-American Street Food</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Donec ullamcorper neque dapibus ipsum semper, sit amet luctus turpis porttitor.
+          Ut libero ante, varius quis ligula.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Donec ullamcorper neque dapibus ipsum semper, sit amet luctus turpis porttitor.
+          Ut libero ante, varius quis ligula.</p>
+       <img class="img-round" src="img/venue2.png" class="rounded-circle mx-auto d-block" alt="gringo's">
+      </section>
+       <!--deals section-->
+      <section id="deals">
+        <h2>Check out our latest deals</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec ullamcorper neque dapibus ipsum semper, sit amet luctus turpis porttitor.
+        Ut libero ante, varius quis ligula.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec ullamcorper neque dapibus ipsum semper, sit amet luctus turpis porttitor.
+        Ut libero ante, varius quis ligula.</p>
+        <div class="wrapper">
+          <div class="taco">
+            <p>Taco deal</p>
+            <img class="deals__img" src="img/tacos.jpg">
+            <footer class="deal__footer">2 for 1 only &#163;9 </footer>
+          </div>
+          <div class="burrito">
+            <p>Burrito deal</p>
+            <img class="deals__img" src="img/burritos.jpg">
+            <footer class="deal__footer">2 for 1 only &#163;8.5 </footer>
+          </div>
+          <div class="chix">
+            <p>Chicken wings deal</p>
+            <img class="deals__img" src="img/cwings.jpg">
+            <footer class="deal__footer">2 for 1 only &#163;7.5 </footer>
+          </div>
+        </div>
+      </section>
+      <!--menu section-->
+      <section id="menu">
+        <h2 id="menu"> See our latest menu below</h2>
+        <div class="container">
+        <div class="one">
+          <p><b>Gringo's home made Tempero Baiono</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><b>&#163;7</b></p>
+          <p><b>Sharing party nachos</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><b>&#163;9</b></p>
+          <p><b>The Cuban supreme</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><b> &#163;9.5</b></p>
+          <p><b>Pablo's Peruvian beef skewers</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><b>&#163;7.9</b></p>
+          <p><b>Gringo's chicken skewers</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><b>&#163;7.5</b></p>
+        </div>
+        <div class="two">
+          <p><b>Barriga del Cerdo</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><b>&#163;7.5</b></p>
+          <p><b>Elote</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><b>&#163;6</b></p>
+         <p><b>Pork ribs</b></p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <p><b>&#163;7</b></p>
+         <p><b>Deep Fried Cauliflower</b></p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <p><b>&#163;5.5</b></p>
+         <p><b>Gringo's classic calamari</b></p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <p><b>&#163;6.9</b></p>
+        </div>
+        </div>
+      </section>
+      <!--subscribe section-->
+      <section id="subscribe">
+        <h2> Subscribe to our newsletter!</h2>
+        <form action="/action_page.php">
+          <label for="email">Email address:</label>
+          <input type="email" placeholder="Enter email" id="email">
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </section>
+      <!--food section-->
+      <section id="food">
+        <h2> Some of our awesome food</h2>
+          <!-- The slideshow -->
+         <div class="fling-minislide">
+            <img src="img/food1.jpg" alt="Slide 1" />
+            <img src="img/food2.jpg" alt="Slide 2" />
+            <img src="img/food3.jpg" alt="Slide 3" />
+         </div>
+      </section>
+      <!-- footer -->
+      <!--contact section-->
+      <section id="contact">
+        <div class="iframe">
+          <p class="toggle"><a href="https://www.google.com/maps/place/The+Two+Chihuahua's/@56.3942477,-3.4346418,17z/data=!3m1!4b1!4m5!3m4!1s0x48863b16da76ac83:0xc587da9f2542ffdd!8m2!3d56.3942477!4d-3.4324531">See it on the map</a></p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2208.265369824728!2d-3.434641784073643!3d56.39424768072978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48863b16da76ac83%3A0xc587da9f2542ffdd!2sThe%20Two%20Chihuahua&#39;s!5e0!3m2!1sen!2suk!4v1597768974837!5m2!1sen!2suk" width="400px" height="300px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div>
+          <p><img src="img/home.png" alt="home"> 76-78 Canal street <br> Perth, PH2 8HX</p>
+          <p><img src="img/phone.png" alt="phone"> 0738 248848</p>
+          <p><img src="img/open.png" alt="opening times"> Wednesday to Sunday:<br> 16:00 - 21:30</p>
+          <p id="link"><a href="https://www.facebook.com/GringosDeliveries" target="_blank">Check out our facebook page</a></p>
+        </div>
+        <div class="icon">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      </section>
+    </body>
+  </html>
