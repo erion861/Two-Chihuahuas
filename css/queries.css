@@ -1,0 +1,154 @@
+/* navbar */
+
+@media (max-width: 52rem) {
+  nav h3 {
+    display: none;
+  }
+  #home {
+    margin-top: 3rem;
+  }
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 32rem) {
+  .main-nav__items {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+  }
+  .hamburrito {
+    cursor: pointer;
+  }
+  .hamburrito:hover {
+    opacity: 70%;
+  }
+  .mobile-nav {
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #941B0C;
+    min-width: 5rem;
+    z-index: 60;
+    top: 30px;
+    right: -16px;
+  }
+  .dropdown-content a {
+    color: black;
+  }
+  .dropdown-content a:hover,
+  .dropdown-content a:active {
+    color: #F6AA1C;
+  }
+  .mobile-nav:hover .dropdown-content {
+    display: block;
+  }
+
+}
+
+/* intro section */
+
+@media (max-width: 40rem) {
+  .img-round {
+    display: block;
+    border-radius: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1.5rem;
+    width: 266px;
+    height: 206px;
+  }
+  .img-round:hover {
+    transform: scaleX(-1);
+  }
+}
+
+
+/* query for deals */
+
+@media (max-width: 60rem) {
+  .wrapper {
+    display: grid;
+    height: auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "first first second second"
+    ". third third .";
+  }
+}
+
+@media (max-width: 43.75rem) {
+  .wrapper {
+    display: grid;
+    height: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "first"
+    "second"
+    "third";
+    align-content: center;
+  }
+}
+
+/* menu section */
+
+@media (max-width: 31.25rem) {
+  .container {
+    display: block;
+  }
+}
+
+/* food section */
+
+@media (min-width: 68.75rem) {
+  .fling-minislide  { 
+    width: 48rem; 
+    height: 36rem; 
+    overflow:hidden; 
+    position:relative;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (max-width: 34rem) {
+  .fling-minislide  { 
+    width: 15.36rem; 
+    height: 11.52rem; 
+    overflow:hidden; 
+    position:relative;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* contact section */
+
+@media (max-width: 33rem) {
+  iframe {
+    display: none;
+  }
+  .toggle {
+    display: block;
+    padding: 3rem;
+    text-transform: uppercase;
+  }
+  
+  .toggle a {
+    text-decoration: none;
+    color: #F6AA1C;
+    font-size: 1.7rem;
+  }
+
+  .toggle:hover,
+  .toggle:active {
+    color: #BC3908;
+  }
+}
